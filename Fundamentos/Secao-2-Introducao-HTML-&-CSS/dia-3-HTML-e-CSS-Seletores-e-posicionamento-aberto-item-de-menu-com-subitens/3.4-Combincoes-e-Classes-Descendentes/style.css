@@ -27,3 +27,34 @@ li {
 .li-italico {
     font-weight: bolder;
 }
+
+.ling-blue {
+    color: blue;
+}
+
+.javinha {
+    background-color: pink;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+a:hover.stack{
+    color: orange;
+}
+
+a:hover.schools{
+    color: green;
+}
+
+a:hover.mdn{
+    color: black;
+}
+
+a:hover.devdocs{
+    color: yellow;
+}
+a:hover.trybe{
+    color: green;
+}
