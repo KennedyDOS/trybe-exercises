@@ -1,0 +1,60 @@
+ol {
+    background-color: yellow;
+}
+
+.par { 
+    background-color: green;
+}
+
+.impar { 
+    text-transform: uppercase;
+}
+
+.header {
+    color: red;
+}
+
+.italic-header {
+   font-size: 40px;
+    border: 1px solid black;
+
+}
+
+li {
+    font-size: 20px;
+}
+
+.li-italico {
+    font-weight: bolder;
+}
+
+.ling-blue {
+    color: blue;
+}
+
+.javinha {
+    background-color: pink;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+a:hover.stack{
+    color: orange;
+}
+
+a:hover.schools{
+    color: green;
+}
+
+a:hover.mdn{
+    color: black;
+}
+
+a:hover.devdocs{
+    color: yellow;
+}
+a:hover.trybe{
+    color: green;
+}
