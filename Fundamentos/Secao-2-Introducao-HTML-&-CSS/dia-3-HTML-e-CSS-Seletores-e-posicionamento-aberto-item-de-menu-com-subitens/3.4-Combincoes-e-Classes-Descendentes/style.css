@@ -19,3 +19,11 @@ ol {
     border: 1px solid black;
 
 }
+
+li {
+    font-size: 20px;
+}
+
+.li-italico {
+    font-weight: bolder;
+}
