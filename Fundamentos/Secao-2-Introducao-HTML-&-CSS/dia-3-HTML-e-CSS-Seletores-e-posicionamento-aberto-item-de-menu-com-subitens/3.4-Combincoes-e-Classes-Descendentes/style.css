@@ -2,10 +2,20 @@ ol {
     background-color: yellow;
 }
 
-.par{
+.par { 
     background-color: green;
 }
 
 .impar { 
     text-transform: uppercase;
+}
+
+.header {
+    color: red;
+}
+
+.italic-header {
+   font-size: 40px;
+    border: 1px solid black;
+
 }
