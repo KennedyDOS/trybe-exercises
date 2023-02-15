@@ -17,3 +17,7 @@ li:active{
     list-style: none;    
 }
 
+div:hover{
+    background-color: red;
+}
+
