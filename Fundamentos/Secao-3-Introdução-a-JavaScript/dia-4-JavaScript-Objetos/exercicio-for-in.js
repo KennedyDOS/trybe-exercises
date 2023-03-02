@@ -8,7 +8,7 @@
 
   console.log('BBem vinda, ' + info.personagem + '.' );  */
 
-/// Exercicio 2
+/// Exercicio 2!
 
 /*let info = {
         personagem: 'Margarida',
@@ -20,7 +20,7 @@
   info.recorrente = 'Não';
   console.log(info.recorrente);*/
 
-  /// Exercicio 3
+  /// Exercicio 3!
   /*let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
@@ -33,7 +33,7 @@ for (let key in info) {
     
 } */
 
-/// Exercicio 4
+/// Exercicio 4!
 
 /* let info = {
     personagem: 'Margarida',
@@ -46,3 +46,30 @@ for (let key in info) {
     console.log(info[key]);
     
 } */
+
+/// Exercicio 5!
+
+let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+    recorrente: 'Sim'
+};
+
+let info2 = {
+    personagem: 'Tio Patinhas',
+    origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+    nota: 'O último MacPatinhas',
+    recorrente: 'Sim'
+};
+
+for (let key in info, info2) {
+    if (key === 'recorrente' && info[key] === 'Sim' && info2[key] === 'Sim') {
+            console.log('Ambos recorrentes');
+        
+    } else {
+        console.log(info[key] + ' e ' + info2[key]);
+    }
+        
+    
+}
