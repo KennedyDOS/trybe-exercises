@@ -1,6 +1,6 @@
 /// Exercicio 1!
 
-/*let info = {
+let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -10,7 +10,7 @@
 
 /// Exercicio 2!
 
-/*let info = {
+let info = {
         personagem: 'Margarida',
         origem: 'Pato Donald',
         nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -21,7 +21,7 @@
   console.log(info.recorrente);*/
 
   /// Exercicio 3!
-  /*let info = {
+  let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -31,11 +31,11 @@
 for (let key in info) {
     console.log(key);
     
-} */
+} 
 
 /// Exercicio 4!
 
-/* let info = {
+ let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -45,11 +45,11 @@ for (let key in info) {
 for (let key in info) {
     console.log(info[key]);
     
-} */
+} 
 
 /// Exercicio 5!
 
-let info = {
+  let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -72,4 +72,23 @@ for (let key in info, info2) {
     }
         
     
-}
+} 
+
+/// Exercicio 6
+
+let leitor = {
+    nome: 'Julia',
+    sobrenome: 'Pessoa',
+    idade: 21,
+    livrosFavoritos: [
+      {
+        titulo: '"O Pior Dia de Todos"',
+        autor: 'Daniela Kopsch',
+        editora: 'Tordesilhas',
+      },
+    ],
+  };
+
+  console.log('O livro favorito de' + leitor.nome + ' ' + leitor.sobrenome + 'se chama '  + leitor['livrosFavoritos'][0]['titulo']);
+  leitor.livrosFavoritos.titulo = 'Harry Potter e o Prisioneiro de Azkaban'
+  console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.titulo.length + ' livros favoritos.');
