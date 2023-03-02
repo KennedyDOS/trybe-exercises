@@ -6,7 +6,7 @@ let info = {
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
   };
 
-  console.log('BBem vinda, ' + info.personagem + '.' );  */
+  console.log('BBem vinda, ' + info.personagem + '.' );  
 
 /// Exercicio 2!
 
@@ -18,7 +18,7 @@ let info = {
   };
 
   info.recorrente = 'Não';
-  console.log(info.recorrente);*/
+  console.log(info.recorrente);
 
   /// Exercicio 3!
   let info = {
@@ -74,7 +74,7 @@ for (let key in info, info2) {
     
 } 
 
-/// Exercicio 6
+/// Exercicio 6!
 
 let leitor = {
     nome: 'Julia',
