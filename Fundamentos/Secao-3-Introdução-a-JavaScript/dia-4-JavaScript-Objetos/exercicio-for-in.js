@@ -10,7 +10,7 @@
 
 /// Exercicio 2
 
-let info = {
+/*let info = {
         personagem: 'Margarida',
         origem: 'Pato Donald',
         nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -18,4 +18,31 @@ let info = {
   };
 
   info.recorrente = 'Não';
-  console.log(info.recorrente);
+  console.log(info.recorrente);*/
+
+  /// Exercicio 3
+  /*let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+    recorrente: 'Sim'
+};
+
+for (let key in info) {
+    console.log(key);
+    
+} */
+
+/// Exercicio 4
+
+/* let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+    recorrente: 'Sim'
+};
+
+for (let key in info) {
+    console.log(info[key]);
+    
+} */
