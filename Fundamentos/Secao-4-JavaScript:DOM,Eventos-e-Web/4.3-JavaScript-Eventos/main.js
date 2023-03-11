@@ -18,7 +18,7 @@ const techLi = (event) => {
 }
 
 firstLi.addEventListener('click', techLi);
-secondLi.addEventListener('click', techLi);
+secondLi.addEventListener('click', techLi);q
 thirdLi.addEventListener('click', techLi);
 
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
