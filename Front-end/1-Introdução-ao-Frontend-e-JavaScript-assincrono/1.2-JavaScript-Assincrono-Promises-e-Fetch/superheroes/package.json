@@ -1,0 +1,21 @@
+{
+  "name": "superheroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.3",
+    "vite": "^4.3.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.10.0"
+  }
+}
