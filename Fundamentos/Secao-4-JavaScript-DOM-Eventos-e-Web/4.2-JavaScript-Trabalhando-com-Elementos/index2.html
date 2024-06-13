@@ -1,0 +1,33 @@
+<main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    
+    const pai = document.querySelector('.pai');
+    const irmaoElementoOndeVoceEsta = document.createElement('section');
+    irmaoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+    pai.appendChild(irmaoElementoOndeVoceEsta);
+
+    const elementoOndeVoceEsta = document.querySelector('.elementoOndeVoceEsta');
+    const filhoElementoOndeVoceEsta = document.createElement('section');
+    filhoElementoOndeVoceEsta.id = 'filhoElementoOndeVoceEsta';
+    elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+    const primeiroFilhoDoFilho = document.querySelector('.primeiroFilhoDoFilho');
+    const filhoDoPrimeiroFilhoDoFIlho = document.createElement('section');
+    filhoDoPrimeiroFilhoDoFIlho.id = 'filhoDoPrimeiroFilhoDoFIlho';
+    primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFIlho);
+
+    const terceiroFilho = filhoDoPrimeiroFilhoDoFIlho.parentElement.parentElement.nextElementSibling;
+    console.log(terceiroFilho);
+
+  </script>

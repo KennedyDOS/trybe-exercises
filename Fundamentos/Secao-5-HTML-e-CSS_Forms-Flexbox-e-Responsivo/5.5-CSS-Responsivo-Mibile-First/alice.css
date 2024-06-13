@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    
+  }
+
+  @media screen and (max-width: 600px){
+   
+    body {
+        background: rgb(143, 143, 233);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    p {
+        padding: 0 3%;
+        line-height: 30px;
+    }
+  }
+
+  @media screen and (min-width: 600px){
+    body {
+        background: rgb(221, 174, 174);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p {
+        padding: 0 6%;
+        line-height: 50px;
+    }
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+  }
+
+  @media screen and (min-width: 1000px){
+    body {
+        background: #89da89;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        padding: 0 9%;
+        line-height: 70px;
+    }
+  }
