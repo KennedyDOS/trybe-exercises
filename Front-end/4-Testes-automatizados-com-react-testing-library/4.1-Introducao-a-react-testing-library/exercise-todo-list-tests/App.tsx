@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import InputTodo from './exercise-todo-list-ts/src/InputTodo';
+import InputTodo from './InputTodo';
 import Item from './exercise-todo-list-ts/src/Item';
 
 function App() {
