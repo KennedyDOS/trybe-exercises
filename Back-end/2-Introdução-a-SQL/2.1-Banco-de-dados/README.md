@@ -1,0 +1,3 @@
+## Banco de dados SQL
+
+Durante esse conteúdo, adquiri conhecimentos sobre os conceitos fundamentais do SQL, incluindo a criação, modificação e gerenciamento de tabelas em bancos de dados relacionais. Utilizei a ferramenta MySQL Workbench para praticar a criação de esquemas, onde aprendi a definir tipos de dados para colunas, configurar chaves primárias e estrangeiras, além de aplicar restrições como NOT NULL e UNIQUE. Também aprendi como escrever consultas SQL para inserir, atualizar e excluir dados, como realizar seleções complexas utilizando JOIN, GROUP BY, HAVING, e funções agregadas.
