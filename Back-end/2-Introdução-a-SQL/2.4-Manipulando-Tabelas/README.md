@@ -1,0 +1,3 @@
+## Manipulando tabelas de banco de dados.
+
+Neste conteúdo aprendi várias operações fundamentais para a manipulação de tabelas em um banco de dados. Entendi como inserir novas colunas em tabelas utilizando o comando INSERT, adicionando dados essenciais para o funcionamento da aplicação. Entendi como o AUTO_INCREMENT pode ser utilizado para gerar valores únicos automaticamente em colunas, como identificadores, o que simplifica a adição de novos registros. Também utilizei o comando UPDATE para modificar valores existentes nas colunas, permitindo a atualização e correção de dados conforme necessário. Por fim apliquei o DELETE para remover registros específicos, mantendo a integridade e a relevância dos dados armazenados.
