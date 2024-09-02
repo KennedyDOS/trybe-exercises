@@ -1,0 +1,3 @@
+## Funções mais usadas no SQL
+
+Neste conteúdo, aprendi a utilizar funções condicionais para situações onde é necessário realizar comparações, assim como várias funções matemáticas importantes. Usei o DIV para retornar o quociente de uma divisão e o MOD para obter o resto. Também aprendi a arredondar números com a função ROUND, ajustando o valor de acordo com a parte decimal. A função CEIL que é utilizada para sempre arredondar para cima, enquanto FLOOR faz o arredondamento para baixo, além dessas, explorei outras funções aritméticas.
