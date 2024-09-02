@@ -1,0 +1,3 @@
+## Descomplicando JOINs
+
+Neste conteúdo aprendi diferentes tipos de JOINs, fundamentais para a manipulação e combinação de dados em SQL. Aprendi a usar o INNER JOIN para retornar resultados onde a condição especificada no ON é satisfeita. Também entendi como aplicar o LEFT JOIN e o RIGHT JOIN para combinar dados de duas tabelas relacionadas, retornando todas as linhas da tabela esquerda ou direita, respectivamente, mesmo quando não há correspondência na outra tabela. Além disso, trabalhei com o SELF JOIN, uma técnica que permite unir uma tabela a si mesma, útil para comparar linhas dentro da mesma tabela.
