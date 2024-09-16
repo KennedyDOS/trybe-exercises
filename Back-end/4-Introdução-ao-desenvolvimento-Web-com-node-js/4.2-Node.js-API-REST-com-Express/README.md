@@ -1,0 +1,3 @@
+## Node.js: API REST com Express.
+
+Neste conteúdo, aprendi a criar uma API REST utilizando o framework Express no ambiente Node.js. Desenvolvi rotas para manipulação de dados com os métodos GET, POST, PUT e DELETE, permitindo a comunicação entre o servidor e o cliente. Também aprendi o tratamento de requisições e respostas, além de lidar com erros de forma eficiente, tornando a API mais robusta e escalável.
