@@ -1,0 +1,3 @@
+## Node.js: Runtime Assíncrono.
+
+Neste conteúdo, explorei o funcionamento do Node.js como um ambiente de execução assíncrono. Aprendi a usar o npm para criar e gerenciar dependências de projetos, além de utilizar o comando node para executar scripts diretamente. Também desenvolvi scripts simples para interações com usuários, aprendi a trabalhar com funções assíncronas e manipulei arquivos utilizando métodos de leitura assíncrona.
