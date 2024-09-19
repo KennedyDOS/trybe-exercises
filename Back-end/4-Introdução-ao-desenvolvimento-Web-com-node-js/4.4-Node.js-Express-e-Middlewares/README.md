@@ -1,0 +1,3 @@
+## Node.js: Express e Middlewares
+
+Neste conteúdo, aprendi a utilizar o Express para desenvolver aplicações web em Node.js, com foco no uso de middlewares. Com os middlewares, fui capaz de interceptar, modificar e gerenciar requisições e respostas, tornando o fluxo de dados mais eficiente. Além de middlewares personalizados para manipulação de erros, autenticação e registro de atividades, proporcionando uma arquitetura mais modular e escalável.

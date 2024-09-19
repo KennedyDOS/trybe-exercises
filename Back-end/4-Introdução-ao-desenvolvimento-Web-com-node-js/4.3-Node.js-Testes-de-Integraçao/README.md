@@ -1,0 +1,3 @@
+## Node.js: Testes de Integração
+
+Neste conteúdo, aprendi a criar e executar testes de integração automatizados em aplicações Node.js para garantir a correta interação entre diferentes partes do sistema. Utilizei bibliotecas como Jest para testes unitários e explorei o Mocha, que suporta diversos tipos de testes. Para complementar, integrei as bibliotecas Chai (para asserções) e Sinon (para mocks e spies), proporcionando testes mais robustos e eficazes.
